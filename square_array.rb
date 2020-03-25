@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  exponent = []
+  array.each do |math|
+    exponent << math ** 2
+  end
+  exponent
 end
